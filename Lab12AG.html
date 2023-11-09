@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+<!--Lab 8 Ava Gartman H01 10/5/2023-->
+<meta charset="utf-8">
+<title>Lab 8 AG</title> 
+<script>
+function thanksgiving (z){
+document.getElementById("turkey").src=z
+}
+</script>
+<style>
+body{background-image:url(Lab12_Images/leaves.gif)}
+#turkey{position:absolute;
+left:120px;
+top:40px;
+width:400px;
+height:500px;
+padding:100px
+}
+#happy{position:absolute;
+color:white;
+left:280px;
+top:50px;
+text-align:center;
+}
+#give{position:absolute;
+color:white;
+left:355px;
+top:660px;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<img id="turkey" onmouseover="thanksgiving('Lab12_Images/pumpkin.jpeg')" src="Lab12_Images/turkey.png" alt="a turkey cartoon">
+<h1 id="happy">Happy Thanksgiving</h1>
+<h2 id="give">Give Thanks!</h2>
+</body>
+</html>
